@@ -1,7 +1,7 @@
-pyannote.audio
+pyannote.audio == 3.1.1
 pydub
-torch
-pandas
-pytube
-transformers
-numpy
+torch == 2.1.0+cu121
+pandas == 1.5.3
+pytube == 15.0.0
+transformers == 4.38.1
+numpy == 1.25.2
