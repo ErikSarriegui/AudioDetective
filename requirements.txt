@@ -1,0 +1,8 @@
+pyannote.audio
+pydub
+torch
+pandas
+pytube
+transformers
+numpy
+os-sys
