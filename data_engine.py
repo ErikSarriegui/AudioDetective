@@ -14,6 +14,8 @@ def transcriptAudio(
         input_audios_dir: str,
         diarization_dir: str,
         transcriptions_output_dir: str,
+        diarization_model_id : str = "pyannote/speaker-diarization-3.1",
+        whisper_model_id : str = "openai/whisper-large-v3",
         delete_orginal_audio: bool = False,
         delete_diarization_audio: bool = True        
 ) -> None:
@@ -37,15 +39,17 @@ def transcriptAudio(
     Devuelve:
     - Nada, únicamente deja los .csv en el directorio especificado
     """
-    AudioDiarization.multipleAudioDivider(
+    AudioDiarization.multipleAudioDiarization(
         audios_dir = input_audios_dir,
         output_dir = diarization_dir,
-        hf_token = hf_token
+        hf_token = hf_token,
+        diarization_model_id = diarization_model_id
     )
 
     AudioTranscription.transcriptMultipleAudioPats(
         input_dir = diarization_dir,
         output_dir = transcriptions_output_dir,
+        whisper_model_id = whisper_model_id
     )
 
     if delete_diarization_audio:
@@ -61,6 +65,8 @@ def downloadAndTranscriptAudio(
         downloaded_audios_dir: str,
         diarization_dir: str,
         transcriptions_output_dir: str,
+        diarization_model_id : str = "pyannote/speaker-diarization-3.1",
+        whisper_model_id : str = "openai/whisper-large-v3",
         delete_orginal_audio: bool = False,
         delete_diarization_audio: bool = True
 ) -> None:
@@ -90,6 +96,7 @@ def downloadAndTranscriptAudio(
     AudioDownloader.downloadYouTubeAudios(
         url_list = url_list,
         output_dir = downloaded_audios_dir
+        # filename_template
     )
 
     AudioDownloader.preProcessAudios(
@@ -101,6 +108,8 @@ def downloadAndTranscriptAudio(
         input_audios_dir = downloaded_audios_dir,
         diarization_dir = diarization_dir,
         transcriptions_output_dir = transcriptions_output_dir,
+        diarization_model_id = diarization_model_id,
+        whisper_model_id = whisper_model_id,
         delete_orginal_audio = delete_orginal_audio,
         delete_diarization_audio = delete_diarization_audio
     )

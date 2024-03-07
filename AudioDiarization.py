@@ -63,7 +63,7 @@ def cleanDf(df : pd.DataFrame) -> pd.DataFrame:
 
   return pd.DataFrame(unified_speakers_data)
 
-def singleAudioDivider(
+def singleAudioDiarization(
     audio_path: str,
     output_dir: str,
     pipeline: Pipeline,
@@ -117,7 +117,7 @@ def singleAudioDivider(
 
 
 
-def multipleAudioDivider(
+def multipleAudioDiarization(
     audios_dir: str,
     output_dir: str,
     hf_token: str,
@@ -125,7 +125,7 @@ def multipleAudioDivider(
     device : torch.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 ) -> None:
   """
-  Utiliza el método singleAudioDivider para dividir todos los audios según el
+  Utiliza el método singleAudioDiarization para dividir todos los audios según el
   spreaker de un directorio.
 
   Args:
@@ -156,7 +156,7 @@ def multipleAudioDivider(
   mp3_files = [file for file in os.listdir(audios_dir) if file.endswith('.mp3')]
 
   for audio_file in mp3_files:
-    singleAudioDivider(
+    singleAudioDiarization(
         audio_path = f"{audios_dir}/{audio_file}",
         output_dir = output_dir,
         pipeline = diarization_pipeline.to(device)
