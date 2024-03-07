@@ -92,6 +92,10 @@ def downloadAndTranscriptAudio(
         output_dir = downloaded_audios_dir
     )
 
+    AudioDownloader.preProcessAudios(
+        audios_path = downloaded_audios_dir
+    )
+
     transcriptAudio(
         hf_token = hf_token,
         input_audios_dir = downloaded_audios_dir,
