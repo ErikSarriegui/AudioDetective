@@ -36,16 +36,15 @@ def transcriptSingleAudioParts(
   - Nada, únicamente deja los .csv en la ubicación especificada
   """
   mp3_files = sorted([f"{audios_dir}/{file}" for file in os.listdir(audios_dir) if file.endswith('.mp3')])
-  print(mp3_files)
-  transcripted_audios_json = whisper_pipeline(mp3_files, generate_kwargs={"language": transcript_language})
+  transcripted_audios_json = whisper_pipeline(mp3_files)
 
   processed_transcripted_list = []
   for person_dialogue in transcripted_audios_json:
     processed_transcripted_list.append(person_dialogue["text"])
 
   structured_df_data = np.array([["Unknown" for dummy_element in range(len(processed_transcripted_list))], processed_transcripted_list]).T
-
   transcripted_data_df = pd.DataFrame(structured_df_data, columns = ["Speaker", "Text"])
+
   if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
