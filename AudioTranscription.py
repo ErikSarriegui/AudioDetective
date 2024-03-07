@@ -36,6 +36,7 @@ def transcriptSingleAudioParts(
   - Nada, únicamente deja los .csv en la ubicación especificada
   """
   mp3_files = sorted([f"{audios_dir}/{file}" for file in os.listdir(audios_dir) if file.endswith('.mp3')])
+  print(mp3_files)
   transcripted_audios_json = whisper_pipeline(mp3_files, generate_kwargs={"language": transcript_language})
 
   processed_transcripted_list = []
