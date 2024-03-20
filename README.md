@@ -1,5 +1,7 @@
 ![Robot](https://github.com/ErikSarriegui/ConversationDataMining/blob/main/imgs/stable-diffusion-turbo.jpeg)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ErikSarriegui/ConversationDataMining/blob/main/quickstart.ipynb)
+
 # **Introducción**
 Este proyecto tiene como objetivo la transcripción con etiquetado de interlocutores de audios y vídeos. Es una herramienta útil para reuniones, conferencias, entrevistas, etc. Sin embargo, en OpenPsy se va a utilizar para extraer conversaciones entre pacientes y psicólogos que pueden encontrarse en audio o vídeo.
 
