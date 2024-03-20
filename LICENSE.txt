@@ -1,20 +1,21 @@
-LICENCIA DE USO DE CÓDIGO
+LICENCIA DE USO PARA ConversationalDataMining
 
-Copyright (C) 2024 Erik Perez Sarriegui
+Derechos de autor © 2024 Erik Perez Sarriegui. Todos los derechos reservados.
 
-Este código es propiedad intelectual de Erik Perez Sarriegui y está protegido por las leyes de derechos de autor y tratados internacionales.
+Esta licencia rige el uso del software ConversationalDataMining (en adelante, el "Software").
 
-Se prohíbe la reproducción, distribución, modificación, sublicencia o venta de este código, así como su uso con fines comerciales, sin el consentimiento expreso por escrito del titular de los derechos de autor.
+1. RESTRICCIONES DE USO
+   1.1 El uso del Software, ya sea personal o comercial, está estrictamente prohibido sin el consentimiento previo y por escrito del propietario.
+   1.2 Queda prohibida cualquier modificación del Software.
 
-El uso no autorizado de este código puede dar lugar a acciones legales y al pago de daños y perjuicios.
+2. DISTRIBUCIÓN Y REPRODUCCIÓN
+   2.1 Queda estrictamente prohibida la distribución o reproducción del Software, ya sea de forma total o parcial, por cualquier medio y para cualquier fin, sin el consentimiento previo y por escrito del propietario.
 
-Se otorga permiso para el uso personal y no comercial de este código, sin modificarlo ni distribuirlo, sujeto a las siguientes condiciones:
+3. LIMITACIÓN DE RESPONSABILIDAD
+   3.1 El propietario no se hace responsable del buen o mal funcionamiento del Software, ni de los daños y perjuicios que puedan derivarse de su uso.
 
-1. Todos los avisos de derechos de autor y esta licencia deben mantenerse intactos.
-2. No se permite el uso del código para fines comerciales sin un acuerdo por escrito con el titular de los derechos de autor.
-3. No se permite la modificación ni la creación de trabajos derivados del código.
-4. No se permite la redistribución o la compartición del código con terceros.
+4. GENERALIDADES
+   4.1 Esta licencia constituye el acuerdo completo entre las partes con respecto al uso del Software y reemplaza cualquier acuerdo anterior o contemporáneo, ya sea oral o escrito.
+   4.2 Si alguna disposición de esta licencia se considera inválida o inaplicable, dicha disposición se interpretará de manera compatible con las leyes aplicables para reflejar la intención original de las partes, y las disposiciones restantes seguirán siendo válidas y aplicables.
 
-ESTE CÓDIGO SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO EL AUTOR SERÁ RESPONSABLE POR RECLAMACIONES, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O CUALQUIER OTRO MOTIVO, DERIVADO DE, FUERA DE O EN CONEXIÓN CON EL CÓDIGO O EL USO U OTRO TIPO DE ACCIONES EN EL CÓDIGO.
-
-Al utilizar este código, usted acepta los términos y condiciones de esta licencia.
+Al usar el Software, usted acepta todos los términos y condiciones de esta licencia. Si no está de acuerdo con estos términos, no podrá utilizar el Software.
