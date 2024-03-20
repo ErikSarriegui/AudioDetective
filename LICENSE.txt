@@ -1,0 +1,20 @@
+LICENCIA DE USO DE CÓDIGO
+
+Copyright (C) 2024 Erik Perez Sarriegui
+
+Este código es propiedad intelectual de Erik Perez Sarriegui y está protegido por las leyes de derechos de autor y tratados internacionales.
+
+Se prohíbe la reproducción, distribución, modificación, sublicencia o venta de este código, así como su uso con fines comerciales, sin el consentimiento expreso por escrito del titular de los derechos de autor.
+
+El uso no autorizado de este código puede dar lugar a acciones legales y al pago de daños y perjuicios.
+
+Se otorga permiso para el uso personal y no comercial de este código, sin modificarlo ni distribuirlo, sujeto a las siguientes condiciones:
+
+1. Todos los avisos de derechos de autor y esta licencia deben mantenerse intactos.
+2. No se permite el uso del código para fines comerciales sin un acuerdo por escrito con el titular de los derechos de autor.
+3. No se permite la modificación ni la creación de trabajos derivados del código.
+4. No se permite la redistribución o la compartición del código con terceros.
+
+ESTE CÓDIGO SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO EL AUTOR SERÁ RESPONSABLE POR RECLAMACIONES, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O CUALQUIER OTRO MOTIVO, DERIVADO DE, FUERA DE O EN CONEXIÓN CON EL CÓDIGO O EL USO U OTRO TIPO DE ACCIONES EN EL CÓDIGO.
+
+Al utilizar este código, usted acepta los términos y condiciones de esta licencia.
