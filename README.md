@@ -1,4 +1,4 @@
-![Robot](https://github.com/ErikSarriegui/ConversationDataMining/blob/main/repo_assests/stable-diffusion-turbo.jpeg)
+![Robot](https://github.com/ErikSarriegui/ConversationDataMining/blob/main/repo_assets/stable-diffusion-turbo.jpeg)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ErikSarriegui/ConversationDataMining/blob/main/quickstart.ipynb)
 
