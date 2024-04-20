@@ -16,9 +16,10 @@ Posteriormente debe instalar las dependencias necesaria.
 $ pip install -r requirements.txt
 ```
 # **Quickstart**
-## **1. Utilizando `web_ui.ipynb`**
-Para poder probar el modelo sin necesidad de instalar nada de manera local, se puede utilizar el notebook `web_ui.ipynb`, que recibe como input una url a un vídeo de YouTube y transcribe el contenido de este, como si fueran mensajes de una conversación.
+## **1. Utilizando `quickstart.ipynb`**
+Para poder probar el modelo sin necesidad de instalar nada de manera local, se puede utilizar el notebook `quickstart.ipynb`, que recibe como input una url a un vídeo de YouTube y transcribe el contenido de este, como si fueran mensajes de una conversación.
 
+Para hacer esto, se puede utilizar el 
 ## **2. Utilizndo el pipeline**
 Puede utilizar el código mediante el método `downloadAndTranscriptAudio()` de `data_engine.py`. Este método utiliza `AudioDownloader` para descargar el audio de YouTube y
 `transcriptAudio` para realizar la transcripción.

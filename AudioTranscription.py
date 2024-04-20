@@ -3,7 +3,6 @@ Este script se encarga de transcribir archivos de audio a csv manteniendo el tag
   - transcriptSingleAudioParts: Esta función recibe la ruta de un directorio de archivos de audio, los transcribe y lo guarda en un directorio.
   - transcriptMultipleAudioPats: Esta función utiliza la función anterior para procesar todos los directorios con sus correspondientes archivos
   mp3 para guardar sus transcripciones.
-
 """
 
 import torch

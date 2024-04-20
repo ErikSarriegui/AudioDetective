@@ -1,5 +1,10 @@
+"""
+Este script tiene varias funciones complementarias.
+"""
 import os
 import pandas as pd
+
+
 
 def borrarDirectorio(path):
     for root, dirs, files in os.walk(path, topdown=False):
@@ -9,6 +14,8 @@ def borrarDirectorio(path):
             os.rmdir(os.path.join(root, name))
     os.rmdir(path)
     print(f"Directorio {path} eliminado correctamente.")
+
+
 
 def csv_to_text(
     csv_dir : str
