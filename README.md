@@ -19,7 +19,11 @@ $ pip install -r requirements.txt
 ## **1. Utilizando `quickstart.ipynb`**
 Para poder probar el modelo sin necesidad de instalar nada de manera local, se puede utilizar el notebook `quickstart.ipynb`, que recibe como input una url a un vídeo de YouTube y transcribe el contenido de este, como si fueran mensajes de una conversación.
 
-Para hacer esto, se puede utilizar el 
+Para hacer esto...
+  1. Abre el notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ErikSarriegui/ConversationDataMining/blob/main/quickstart.ipynb)
+  2. Si no estas en colab, comenta las primeras líneas de código e instala dependencias manualmente.
+  3. Implementa tu token de huggingface ([puedes conseguirlo aquí]([url](https://huggingface.co/settings/tokens))).
+
 ## **2. Utilizndo el pipeline**
 Puede utilizar el código mediante el método `downloadAndTranscriptAudio()` de `data_engine.py`. Este método utiliza `AudioDownloader` para descargar el audio de YouTube y
 `transcriptAudio` para realizar la transcripción.
