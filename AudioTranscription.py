@@ -15,8 +15,7 @@ import os
 def transcriptSingleAudioParts(
     audios_dir: str,
     output_dir: str,
-    whisper_pipeline: pipeline,
-    transcript_language : str = "english"
+    whisper_pipeline: pipeline
 ) -> None:
   """
   Este es un método que transcribe los audios divididos de un directorio y 
@@ -28,9 +27,6 @@ def transcriptSingleAudioParts(
   - output_dir (str): Es la dirección donde se dejarán los .csv
   - whisper_pipeline (transformers.pipeline): Es el objeto que hace las
   inferencias sobre los audios.
-  - transcript_language (str): Es el lenguje al que queremos que transcriba,
-  por defecto está en inglés (english) pero podemos ponerlo en castellano
-  (spanish).
 
   Devuelve:
   - Nada, únicamente deja los .csv en la ubicación especificada

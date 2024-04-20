@@ -67,7 +67,7 @@ def singleAudioDiarization(
     audio_path: str,
     output_dir: str,
     pipeline: Pipeline,
-) -> None:
+) -> pd.DataFrame:
   """
   Es un método que recibe como input el path de un audio, y lo divide en los
   momentos en los que hablan los diferentes "speakers".

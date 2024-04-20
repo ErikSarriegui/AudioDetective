@@ -12,7 +12,7 @@ def downloadYouTubeAudios(
   url_list : list,
   output_dir : str = "/content/audio",
   filename_template: str = "audio{index}.wav"
-):
+) -> None:
   """
   Es un método para descargar los audios de YouTube contenidos en
   una lista de urls de esta plataforma.
