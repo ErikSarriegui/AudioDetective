@@ -16,7 +16,6 @@ Posteriormente debe instalar las dependencias necesaria.
 $ pip install -r requirements.txt
 ```
 # **Quickstart**
-## **1. Utilizando `quickstart.ipynb`**
 Para poder probar el modelo sin necesidad de instalar nada de manera local, se puede utilizar el notebook `quickstart.ipynb`, que recibe como input una url a un vídeo de YouTube y transcribe el contenido de este, como si fueran mensajes de una conversación.
 
 Para hacer esto...
@@ -24,8 +23,13 @@ Para hacer esto...
   2. Si no estas en colab, comenta las primeras líneas de código e instala dependencias manualmente.
   3. Implementa tu token de huggingface ([puedes conseguirlo aquí]([url](https://huggingface.co/settings/tokens))).
 
-## **2. Utilizndo el pipeline**
-Puede utilizar el código mediante el método `downloadAndTranscriptAudio()` de `data_engine.py`. Este método utiliza `AudioDownloader` para descargar el audio de YouTube y
+Hay que tener en cuenta:
+  * Que la primera inferencia es lenta debido a que es necesario instalar todas las dependencias.
+  * Que para acelerar el proceso de forma radical, es recomendable utilizar CUDA.
+  * Por motivos que desconozco, una vez se han instalado las dependecias de `requirements.txt` salta un error, para solucionar esto, ejecuta el código de nuevo una o dos veces rápidamente.
+
+# **Tutorial**
+Si quieres tener más control, puedes implementar directamente los métodos que se utilizan en `quickstart.ipynb`. El principal método es `downloadAndTranscriptAudio()` de `pipeline.py`. Este método utiliza `AudioDownloader` para descargar el audio de YouTube y
 `transcriptAudio` para realizar la transcripción.
 
 Argumentos de entrada:
