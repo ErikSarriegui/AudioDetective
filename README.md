@@ -11,7 +11,7 @@ Para poder probar el modelo sin necesidad de instalar nada de manera local, se p
 Para hacer esto...
   1. Abre el notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ErikSarriegui/ConversationDataMining/blob/main/quickstart.ipynb)
   2. Si no estas en colab, comenta las primeras líneas de código e instala dependencias manualmente.
-  3. Implementa tu token de huggingface ([puedes conseguirlo aquí]([url](https://huggingface.co/settings/tokens))).
+  3. Implementa tu token de huggingface (([puedes conseguirlo aquí](https://huggingface.co/settings/tokens))).
 
 Hay que tener en cuenta:
   * Que la primera inferencia es lenta debido a que es necesario instalar todas las dependencias.
